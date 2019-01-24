@@ -1,0 +1,21 @@
+{
+    "name": "zaabr/yii2-pages",
+    "description": "Creating, editing and managing publications on the site.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","pages"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZaaBr",
+            "email": "zaabr@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zaabr\\pages\\": ""
+        }
+    }
+}
