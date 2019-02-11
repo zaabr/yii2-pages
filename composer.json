@@ -15,7 +15,7 @@
       "url": "https://github.com/zaabr/yii2-pages.git"
     }
   ],
-   "minimum-stability": "stable",
+   "minimum-stability": "dev",
     "require": {
 		"yiisoft/yii2": "~2.0.0"
 	},
