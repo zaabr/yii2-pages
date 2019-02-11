@@ -11,7 +11,7 @@
     ],
 	"repositories": [
     {
-      "type": "vcs",
+      "type": "path",
       "url": "https://github.com/zaabr/yii2-pages.git"
     }
   ],
