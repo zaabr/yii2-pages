@@ -12,7 +12,7 @@
 	"repositories": [
     {
       "type": "path",
-      "url": "https://github.com/zaabr/yii2-pages.git"
+      "url": "https://github.com/zaabr/yii2-pages"
     }
   ],
    "minimum-stability": "stable",
