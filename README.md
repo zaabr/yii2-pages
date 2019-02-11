@@ -18,9 +18,20 @@ or add
 ```
 "zaabr/yii2-pages": "*"
 ```
+or
+```
+composer require zaabr/yii2-pages
+```
+or add
 
+```
 to the require section of your `composer.json` file.
+```
 
+* Выполнить миграцию для создания таблиц в базе данных (консоль):
+```
+yii migrate --migrationPath=@zaabr/pages/migrations --interactive=0
+```
 
 Usage
 -----
