@@ -2,6 +2,7 @@
     "name": "zaabr/yii2-pages",
     "description": "Creating, editing and managing publications on the site.",
     "type": "yii2-extension",
+    "homepage": "https://github.com/zaabr/yii2-pages",
     "license": "MIT",
     "authors": [
         {
@@ -11,13 +12,14 @@
     ],
 	"repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/zaabr/yii2-pages.git"
+      "type": "git",
+      "url": "https://github.com/zaabr/yii2-pages"
     }
   ],
    "minimum-stability": "dev",
     "require": {
-		"yiisoft/yii2": "~2.0.0"
+		"yiisoft/yii2": "~2.0.0",
+        "php": ">=7.0"
 	},
     "extra": {
         "bootstrap": "zaabr\\yii2-pages\\Bootstrap"
