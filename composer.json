@@ -4,7 +4,6 @@
     "type": "yii2-extension",
     "homepage": "https://github.com/zaabr/yii2-pages",
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
 		"yiisoft/yii2": "~2.0.0",
         "php": ">=7.0"
@@ -15,12 +14,6 @@
             "email": "zaabr@yandex.ru"
         }
     ],
-	"repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zaabr/yii2-pages"
-    }
-  ],
     "extra": {
         "bootstrap": "zaabr\\yii2-pages\\Bootstrap",
         "branch-alias": {
