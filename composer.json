@@ -1,5 +1,6 @@
 {
     "name": "zaabr/yii2-pages",
+	"version":	"1.0",
     "description": "Creating, editing and managing publications on the site.",
     "type": "yii2-extension",
     "homepage": "https://github.com/zaabr/yii2-pages",
