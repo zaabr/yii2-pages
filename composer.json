@@ -1,7 +1,7 @@
 {
     "name": "zaabr/yii2-pages",
     "description": "Creating, editing and managing publications on the site.",
-	"version": "0.0.1",
+	"version": "1.0.1",
     "type": "yii2-extension",
     "homepage": "https://github.com/zaabr/yii2-pages",
     "license": "MIT",
