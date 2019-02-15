@@ -22,7 +22,11 @@
     }
   ],
     "extra": {
-        "bootstrap": "zaabr\\yii2-pages\\Bootstrap"
+        "bootstrap": "zaabr\\yii2-pages\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+       }
+
     },
      "autoload": {
         "psr-4": {
