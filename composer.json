@@ -2,10 +2,8 @@
     "name": "zaabr/yii2-pages",
     "description": "Creating, editing and managing publications on the site.",
     "type": "yii2-extension",
-    "version": "1.0.0",
     "keywords": ["yii2","extension"],
     "license": "MIT",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "ZAABr",
