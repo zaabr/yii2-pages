@@ -11,19 +11,18 @@
             "email": "zaabr@yandex.ru"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
+  "require": [{
+        "yiisoft/yii2": "^2.0",
+	"php": ">=7.0"
+  	}
+  ],
   "repository": [{
     "type": "git",
     "url": "https://github.com/zaabr/yii2-pages"
   	}
   ],
     "extra": [{
-        "bootstrap": "zaabr\\pages\\Bootstrap",
-        "branch-alias": {
-            "dev-master": "1.0.x"
-       		}
+        "bootstrap": "zaabr\\pages\\Bootstrap"
     	}
   ],
     "autoload": {
