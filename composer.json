@@ -4,8 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
-    "version": "1.0.0",
-    "minimum-stability":"dev",
+    "minimum-stability":"stable
     "authors": [
         {
             "name": "ZAABr",
@@ -17,11 +16,14 @@
 	"php": ">=7"
   	}
   ],
-  "extra": [{
-        "bootstrap": "zaabr\\pages\\Bootstrap"
+    "extra": [{
+        "bootstrap": "zaabr\\pages\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "1.0.x"
+       		}
     	}
   ],
-    "autoload": {
+  "autoload": {
         "psr-4": {
             "zaabr\\pages\\": ""
         }
