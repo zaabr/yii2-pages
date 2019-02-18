@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "ZAABr",
@@ -11,9 +12,8 @@
         }
     ],
   "require": [{
-        "yiisoft/yii2": "~2.0.0",
-	"php": ">=7.0",
-	"zaab/yii2-pages": "1.*"
+        "yiisoft/yii2": ">=2.0.0",
+	"php": ">=7"
   	}
   ],
   "extra": [{
