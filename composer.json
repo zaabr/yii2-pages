@@ -10,7 +10,13 @@
             "name": "ZAABr",
             "email": "zaabr@yandex.ru"
         }
-    ],
+   ],
+   "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/zaabr/yii2-pages"
+    }
+  ],
   "require": [{
         "yiisoft/yii2": "~2.0.0",
 	"php": ">=7.0"
