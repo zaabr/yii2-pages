@@ -23,10 +23,7 @@
   	}
   ],
     "extra": [{
-        "bootstrap": "zaabr\\pages\\Bootstrap",
-        "branch-alias": {
-            "dev-master": "1.x.x"
-       		}
+        "bootstrap": "zaabr\\pages\\Bootstrap"
     	}
   ],
   "autoload": {
