@@ -4,31 +4,29 @@
     "type": "yii2-extension",
     "homepage": "https://github.com/zaabr/yii2-pages",
     "license": "MIT",
-   "minimum-stability": "dev",
-   "authors": [
+    "authors": [
         {
             "name": "ZAABr",
             "email": "zaabr@yandex.ru"
         }
-   ],
-   "repositories": [
+    ],
+	"repositories": [
     {
       "type": "git",
       "url": "https://github.com/zaabr/yii2-pages"
     }
   ],
-  "require": [{
-        "yiisoft/yii2": "~2.0.0",
-	"php": ">=7.0"
-  	}
-  ],
-    "extra": [{
+   "minimum-stability": "dev",
+    "require": {
+		"yiisoft/yii2": "~2.0.0",
+        "php": ">=7.0"
+	},
+    "extra": {
         "bootstrap": "zaabr\\pages\\Bootstrap"
-    	}
-  ],
-  "autoload": {
+    },
+     "autoload": {
         "psr-4": {
-            "zaabr\\pages\\": ""
+            "zaabr\\pages\\": "src"
         }
     }
 }
